@@ -1,6 +1,8 @@
 namespace Felix.Data
 {
+    using System.Data.Entity;
     using Felix.Models;
+    using Felix.Models.Deals;
     using Microsoft.AspNet.Identity.EntityFramework;
 
     public class FContext : IdentityDbContext<ApplicationUser>
@@ -20,12 +22,29 @@ namespace Felix.Data
         // Add a DbSet for each entity type that you want to include in your model. For more information 
         // on configuring and using a Code First model, see http://go.microsoft.com/fwlink/?LinkId=390109.
 
-        // public virtual DbSet<MyEntity> MyEntities { get; set; }
+        public virtual DbSet<Buyer> Buyers { get; set; }
+
+        public virtual DbSet<Consignee> Consegnees { get; set; }
+
+        public virtual DbSet<Country> Countries { get; set; }
+
+        public virtual DbSet<Deal> Deals { get; set; }
+
+        public virtual DbSet<Formulation> Formulations { get; set; }
+
+        public virtual DbSet<Package> Packages { get; set; }
+
+        public virtual DbSet<Port> Ports { get; set; }
+
+        public virtual DbSet<Product>   Products { get; set; }
+
+        public virtual DbSet<TransportCompany> TransportCompanies { get; set; }
+
 
         public static FContext Create()
-       {
-           return new FContext();
-       }
+        {
+            return new FContext();
+        }
 
         //public class MyEntity
         //{

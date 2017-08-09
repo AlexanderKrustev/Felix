@@ -78,3 +78,6 @@ C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.
 C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\Felix.Data.dll.config
 C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\Felix.Models.pdb
 C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\Felix.Models.dll.config
+C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\System.Web.Cors.dll
+C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\System.Web.Http.Cors.dll
+C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\System.Web.Http.Cors.xml

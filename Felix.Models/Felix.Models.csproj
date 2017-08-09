@@ -55,6 +55,16 @@
   <ItemGroup>
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Deals\Buyer.cs" />
+    <Compile Include="Deals\Consignee.cs" />
+    <Compile Include="Deals\Country.cs" />
+    <Compile Include="Deals\Deal.cs" />
+    <Compile Include="Deals\Formulation.cs" />
+    <Compile Include="Deals\Package.cs" />
+    <Compile Include="Deals\Port.cs" />
+    <Compile Include="Deals\Product.cs" />
+    <Compile Include="Deals\TransportCompany.cs" />
+    <Compile Include="Enums\Currency.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

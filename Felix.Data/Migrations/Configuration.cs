@@ -1,18 +1,17 @@
 namespace Felix.Data.Migrations
 {
-    using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Felix.Data.FContext>
+
+    internal sealed class Configuration : DbMigrationsConfiguration<FContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            this.AutomaticMigrationsEnabled = true;
+            this.AutomaticMigrationDataLossAllowed = true;
         }
 
-        protected override void Seed(Felix.Data.FContext context)
+        protected override void Seed(FContext context)
         {
             //  This method will be called after migrating to the latest version.
 
