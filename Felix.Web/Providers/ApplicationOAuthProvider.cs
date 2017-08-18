@@ -5,7 +5,6 @@
     using System.Security.Claims;
     using System.Threading.Tasks;
     using Felix.Models;
-    using Felix.Web.Models;
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
     using Microsoft.Owin.Security.Cookies;

@@ -40,6 +40,8 @@ namespace Felix.Data
 
         public virtual DbSet<TransportCompany> TransportCompanies { get; set; }
 
+        public virtual DbSet<User>  Users { get; set; }
+
 
         public static FContext Create()
         {

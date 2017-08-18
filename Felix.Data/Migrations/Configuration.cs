@@ -1,6 +1,7 @@
 namespace Felix.Data.Migrations
 {
     using System.Data.Entity.Migrations;
+    using Microsoft.AspNet.Identity.EntityFramework;
 
 
     internal sealed class Configuration : DbMigrationsConfiguration<FContext>
@@ -25,6 +26,12 @@ namespace Felix.Data.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+
+            context.Roles.AddOrUpdate(r=>r.Name,
+                new IdentityRole { Name="Dev"},
+                new IdentityRole { Name = "Manager" },
+                new IdentityRole { Name = "Operator" }
+                );
         }
     }
 }

@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.Owin;
-using Microsoft.Owin.Security.Cookies;
-using Microsoft.Owin.Security.Google;
-using Microsoft.Owin.Security.OAuth;
-using Owin;
-using Felix.Web.Providers;
-using Felix.Web.Models;
-
-namespace Felix.Web
+﻿namespace Felix.Web
 {
+    using System;
     using Felix.Data;
+    using Felix.Web.Providers;
+    using Microsoft.AspNet.Identity;
+    using Microsoft.Owin;
+    using Microsoft.Owin.Security.Cookies;
+    using Microsoft.Owin.Security.OAuth;
+    using Owin;
 
     public partial class Startup
     {

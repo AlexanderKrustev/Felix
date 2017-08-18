@@ -81,3 +81,6 @@ C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.
 C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\System.Web.Cors.dll
 C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\System.Web.Http.Cors.dll
 C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\System.Web.Http.Cors.xml
+C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\Fliex.Services.dll
+C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\Fliex.Services.pdb
+C:\Users\krustev\google drive\documents\visual studio 2017\Projects\Felix\Felix.Web\bin\Fliex.Services.dll.config

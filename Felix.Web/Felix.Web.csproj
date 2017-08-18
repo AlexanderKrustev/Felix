@@ -239,9 +239,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountBindingModels.cs" />
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -332,6 +329,10 @@
     <ProjectReference Include="..\Felix.Models\Felix.Models.csproj">
       <Project>{475C8E12-8D98-4DCA-8C3E-AAC46CA82AB4}</Project>
       <Name>Felix.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fliex.Services\Felix.Services.csproj">
+      <Project>{f9bc4e5b-7864-47de-b766-df6880e1fafd}</Project>
+      <Name>Felix.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
